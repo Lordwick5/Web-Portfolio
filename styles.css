@@ -51,4 +51,5 @@ body, html {
 
 .portfolio-button:hover {
     background-color: #555;
+    border-color: #ffffff;
 }
