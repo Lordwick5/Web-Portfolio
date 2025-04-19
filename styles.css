@@ -57,4 +57,5 @@ body, html {
 .profile {
     height: 480px;
     width: 370px;
+    border-radius: 70%;
 }
