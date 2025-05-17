@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.intro-animation {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 2s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 20px; 
+}
+
+.portfolio-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px; 
+}
+
+
+.portfolio-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.profile-container{
+    height: 40px;
+    width: 37px;
+    border-radius: 70%;
+}
