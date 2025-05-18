@@ -3,17 +3,17 @@
 }
 
 .profile-container {
-    width: 200px;         /* small fixed width */
-    height: 200px;        /* small fixed height */
-    border-radius: 50%;   /* makes it a circle */
-    overflow: hidden;     /* crops image inside the circle */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* optional styling */
-    margin: 20px auto;    /* center container horizontally */
+    width: 200px;         
+    height: 200px;        
+    border-radius: 50%;   
+    overflow: hidden;     
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    margin: 20px auto;    
 }
 
 .profile-container img {
-    width: 100%;          /* fill container width */
-    height: 100%;         /* fill container height */
-    object-fit: cover;    /* cover the container without distortion */
-    display: block;       /* remove inline gap */
+    width: 100%;          
+    height: 100%;         
+    object-fit: cover;    
+    display: block;       
 }
