@@ -27,7 +27,7 @@ body, html {
     background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545, #feda75);
     border-radius: 10px;
     z-index: -1;
-    animation: spin 5s linear infinite; /* Optional animation */
+    animation: spin 5s linear infinite; 
 }
 
 .profile-container img {
