@@ -26,7 +26,7 @@ body, html {
     width: 220px;
     height: 220px;
     background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095, #ff4545, #feda75);
-    border-radius: 10px;
+    border-radius: 50%;
     z-index: -1;
     animation: spin 5s linear infinite; 
     padding: 3px;
@@ -49,10 +49,6 @@ body, html {
 }
 
 @keyframes spin {
-    0% { 
-        --angle: 0deg; 
-    }
-    100% { 
-        --angle: 360deg; 
-    }
+    0% { --angle: 0deg; }
+    100% { --angle: 360deg; }
 }
