@@ -26,7 +26,7 @@ img::before, img::after {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: red;
-
-    
+    background: red;
+    top: 50%;
+    bottom: 50%;
 }
