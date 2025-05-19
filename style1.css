@@ -13,8 +13,8 @@ body, html {
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background: linear-gradient(45deg, red, blue, purple); 
-    padding: 5px; 
+    background-image: conic-gradient(45deg, red, blue, purple); 
+    padding: 3px; 
     display: flex;
     align-items: center;
     justify-content: center;
