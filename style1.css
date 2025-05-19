@@ -15,9 +15,10 @@ body, html {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    z-index: 1;
 }
 
-.profile-container::after, .profile-container::before {
+.profile-container::before {
     content: "";
     position: absolute;
     top: -5px;
@@ -51,6 +52,10 @@ body, html {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% { 
+        --angle: 0deg; 
+    }
+    100% { 
+        --angle: 360deg; 
+    }
 }
