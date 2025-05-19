@@ -24,7 +24,7 @@ body, html {
     left: -5px;
     width: 100%;
     height: 100%;
-    background: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
     border-radius: 50%;
     z-index: -1;
     animation: spin 5s linear infinite; /* Optional animation */
