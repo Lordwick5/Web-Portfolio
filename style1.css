@@ -26,7 +26,7 @@ body, html {
     height: 300px;
     background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095, #ff4545, #feda75);
     border-radius: 50%;
-    z-index: 1;
+    z-index: 0;
     animation: spin 5s linear infinite; 
     padding: 3px;
     filter: blur(1.5rem);
