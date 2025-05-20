@@ -45,6 +45,8 @@ body, html {
     object-fit: cover;
     border-radius: 50%;
     display: block;
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes spin {
